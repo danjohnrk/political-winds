@@ -1,0 +1,67 @@
+{
+  "parties": [
+    {
+      "name": "R",
+      "color": "#8d4e6d",
+      "vote1": 6.6,
+      "vote2": 6.73,
+      "direction": "left"
+    },
+    {
+      "name": "SV",
+      "color": "#b10865",
+      "vote1": 7.4,
+      "vote2": 8.63,
+      "direction": "left"
+    },
+    {
+      "name": "AP",
+      "color": "#cf162d",
+      "vote1": 23.7,
+      "vote2": 26.9,
+      "direction": "left"
+    },
+    {
+      "name": "SP",
+      "color": "#2a964c",
+      "vote1": 25.5,
+      "vote2": 19.22,
+      "direction": "left"
+    },
+    {
+      "name": "MDG",
+      "color": "#8bc043",
+      "vote1": 1.4,
+      "vote2": 3.61,
+      "direction": "left"
+    },
+    {
+      "name": "KRF",
+      "color": "#f9a134",
+      "vote1": 1.7,
+      "vote2": 2.24,
+      "direction": "right"
+    },
+    {
+      "name": "V",
+      "color": "#0e472e",
+      "vote1": 2.6,
+      "vote2": 2.77,
+      "direction": "right"
+    },
+    {
+      "name": "H",
+      "color": "#257ce1",
+      "vote1": 14.6,
+      "vote2": 17.61,
+      "direction": "right"
+    },
+    {
+      "name": "FRP",
+      "color": "#05205c",
+      "vote1": 13.2,
+      "vote2": 10.02,
+      "direction": "right"
+    }
+  ]
+}

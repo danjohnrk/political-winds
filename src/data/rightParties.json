@@ -1,0 +1,32 @@
+{
+  "parties": [
+    {
+      "name": "KRF",
+      "color": "#f9a134",
+      "vote1": 1.7,
+      "vote2": 2.24,
+      "direction": "right"
+    },
+    {
+      "name": "V",
+      "color": "#0e472e",
+      "vote1": 2.6,
+      "vote2": 2.77,
+      "direction": "right"
+    },
+    {
+      "name": "H",
+      "color": "#257ce1",
+      "vote1": 14.6,
+      "vote2": 17.61,
+      "direction": "right"
+    },
+    {
+      "name": "FRP",
+      "color": "#05205c",
+      "vote1": 13.2,
+      "vote2": 10.02,
+      "direction": "right"
+    }
+  ]
+}
