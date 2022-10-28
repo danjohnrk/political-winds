@@ -19,7 +19,6 @@ export default function Map() {
   const [lng] = useState(14.362);
   const [lat] = useState(67.269);
   const [zoom] = useState(5);
-  const [API_KEY] = useState("get_your_own_OpIi9ZULNHzrESv6T2vL");
 
   useEffect(() => {
     var leftCanvas = leftCanvasContainer.current;
@@ -31,7 +30,7 @@ export default function Map() {
     if (map.current) return;
     map.current = new maplibregl.Map({
       container: mapContainer.current,
-      style: `https://api.maptiler.com/maps/basic/style.json?key=${API_KEY}`,
+      style: `https://tiles.yr.no/styles/basic/style.json`,
       center: [lng, lat],
       zoom: zoom,
     });
