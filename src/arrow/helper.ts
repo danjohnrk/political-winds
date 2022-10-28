@@ -58,7 +58,7 @@ function createPartyArrows({ party, amount }: { party: IParty, amount: Number })
         */
         if (party.direction === 'left' && isPositivTrend === true) {
             const startingX = getRandomArbitrary({ min: 0, max: 200 });
-            const startingy = getRandomArbitrary({ min: 0, max: 200 });
+            const startingy = getRandomArbitrary({ min: 0, max: 400 });
             startingPoint = [startingX, startingy];
         }
         /**[ ][x]
@@ -66,7 +66,7 @@ function createPartyArrows({ party, amount }: { party: IParty, amount: Number })
          */
         if (party.direction === 'right' && isPositivTrend === true) {
             const startingX = getRandomArbitrary({ min: 200, max: 400 });
-            const startingy = getRandomArbitrary({ min: 0, max: 200 });
+            const startingy = getRandomArbitrary({ min: 0, max: 400 });
             startingPoint = [startingX, startingy];
         }
         /**[ ][ ]
@@ -74,7 +74,7 @@ function createPartyArrows({ party, amount }: { party: IParty, amount: Number })
          */
         if (party.direction === 'left' && isPositivTrend === false) {
             const startingX = getRandomArbitrary({ min: 0, max: 200 });
-            const startingy = getRandomArbitrary({ min: 200, max: 400 });
+            const startingy = getRandomArbitrary({ min: 0, max: 400 });
             startingPoint = [startingX, startingy];
         }
         /**[ ][ ]
@@ -82,7 +82,7 @@ function createPartyArrows({ party, amount }: { party: IParty, amount: Number })
          */
         if (party.direction === 'right' && isPositivTrend === false) {
             const startingX = getRandomArbitrary({ min: 200, max: 400 });
-            const startingy = getRandomArbitrary({ min: 200, max: 400 });
+            const startingy = getRandomArbitrary({ min: 0, max: 400 });
             startingPoint = [startingX, startingy];
         }
 
